@@ -61,4 +61,12 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerEnter(Collider hit)
+    {
+        if (hit.gameObject.tag == "Pickup")
+        {
+            hit.gameObject.GetComponent<Pickup>().Picked();
+        }
+    }
 }
