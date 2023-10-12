@@ -96,11 +96,11 @@ public class GameManager : MonoBehaviour
         }
         else if (keyColor == KeyColor.Silver)
         {
-            redKey++;
+            silverKey++;
         }
         else if (keyColor == KeyColor.Gold)
         {
-            redKey++;
+            goldKey++;
         }
         else Debug.Log("Incorrect key color!");
     }
