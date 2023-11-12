@@ -18,6 +18,6 @@ public class Pickup : MonoBehaviour
     }
     public void Rotation()
     {
-        transform.Rotate(new Vector3(0f, 0f, rotationSpeed * Time.deltaTime));
+        transform.Rotate(new Vector3(0f, rotationSpeed * Time.deltaTime, 0f));
     }
 }
