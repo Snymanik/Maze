@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         characterController = GetComponent<CharacterController>();
-
+        //DontDestroyOnLoad(this.gameObject);
     }
     private void Update()
     {

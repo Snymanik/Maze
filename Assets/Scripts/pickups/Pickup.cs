@@ -14,6 +14,8 @@ public class Pickup : MonoBehaviour
     }
     public virtual void Picked()
     {
+        AudioClip pickupclip = GameManager.gameManager.GetPickupCLip();
+        GameManager.gameManager.PlayClip(pickupclip);
         Destroy(this.gameObject);
     }
     public void Rotation()

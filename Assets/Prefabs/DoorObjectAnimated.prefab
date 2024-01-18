@@ -51,7 +51,7 @@ MonoBehaviour:
   openPos: {fileID: 1551789540167336677}
   closePos: {fileID: 1551789539136349656}
   isOpen: 0
-  speed: 5
+  speed: 4
 --- !u!1 &1551789538559723895
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,3 +436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door: {fileID: 1551789538313283505}
   keyColour: 0
+  redMat: {fileID: 2100000, guid: 14211c1bca6e57941ac3ef80c325a78c, type: 2}
+  silverMat: {fileID: 2100000, guid: d50cba6f4b1522249b5ec45c49b97276, type: 2}
+  goldMat: {fileID: 2100000, guid: b42dd551a6a34ef4691941bf24be1a64, type: 2}
+  lockRenderer: {fileID: 1551789538926504664}
